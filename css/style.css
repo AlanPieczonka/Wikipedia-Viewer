@@ -10,15 +10,18 @@ Orange color: #e67e22;
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 html,
 body {
-    background-color: #fff;
-    color: #555;
+    background-color: #00CFC1;
+    color: #000000;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 62.5%;
 }
 
 .clearfix {zoom: 1} 
@@ -35,15 +38,62 @@ body {
 /*////////////////////////////////////////////////////////////////////////////*/
 
 .row {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;  /*margin: 0 auto;*/
 }
 
 section {
-    padding: 80px 0;
+    padding: 0;
 }
 
 .box {
     padding: 1%;
 }
+
+
+/*header*/
+h1{
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 300;
+}
+
+/*section-main*/
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 3rem;
+    width: 275px;
+    height: 105px;
+    border-radius: 5%;
+    border: 0;
+    background-image: url(img/random275x105.png);
+    background-color: #FD5200;
+}
+
+/*footer*/
+footer{
+    height: 80px;
+}
+.lastheading{
+  float: right;
+}
+h6{
+  font-size: 1.8rem;
+  font-weight: 400;
+  display: inline;
+  color: #000000;
+}
+
+.githubimg{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 15px;
+  margin-left: 15px;
+}
+
 

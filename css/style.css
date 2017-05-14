@@ -70,7 +70,11 @@ h1{
     justify-content: center;
 }
 
-button{
+.container:nth-child(2){
+    margin-top: 20px;
+}
+
+.button-random-article{
     font-size: 3rem;
     width: 275px;
     height: 105px;
@@ -79,6 +83,54 @@ button{
     background-image: url(img/random275x105.png);
     background-color: #FD5200;
 }
+
+.button-search{
+    width: 52px;
+    height: 50px;
+    border: 0;
+    margin-left: 20px;
+    background-image: url(img/searchicon49.png);
+    background-color: #FE621D;
+}
+
+input{
+    font-size: 2rem;
+}
+
+.go{
+    display: none;
+    width: 500px;
+    height: 200px;
+    background-color: bisque;
+    font-size: 3.6rem;
+}
+
+.less{
+    text-align: center;
+}
+
+.less div{
+    margin-left: 250px;
+    width: 350px;
+    min-height: 150px;
+    background-color: #00FFE7;
+    margin: 20px 40%;
+}
+
+.less div h2{
+    font-size: 2rem;
+}
+
+
+
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+
 
 /*footer*/
 footer{

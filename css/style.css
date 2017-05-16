@@ -105,11 +105,11 @@ input{
     font-size: 3.6rem;
 }
 
-.less{
+.results{
     text-align: center;
 }
 
-.less div{
+.results div{
     margin-left: 250px;
     width: 350px;
     min-height: 150px;
@@ -117,7 +117,7 @@ input{
     margin: 20px 40%;
 }
 
-.less div h2{
+.results div h2{
     font-size: 2rem;
 }
 

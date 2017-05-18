@@ -1,7 +1,7 @@
 console.log("JS file works!");
 
-const input = document.getElementsByTagName('input')[0];
 const buttonSearch = document.getElementsByClassName('button-search')[0];
+const input = document.getElementsByTagName('input')[0];
 
 buttonSearch.addEventListener("click", () => {
         
